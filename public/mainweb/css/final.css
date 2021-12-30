@@ -1,0 +1,26 @@
+ul{
+    color: white;
+}
+.wavfinal{
+    position: relative;
+    -webkit-box-reflect:below -60px linear-gradient(transparent,rgba(94, 211, 160, 0.3));
+}
+
+.wavfinal span{
+    position: relative;
+    display:inline-block;
+    color: #1ec27a;
+    font-size: 6rem;
+    text-transform: uppercase;
+    animation: animate 1s ease-in-out infinite;
+    animation-delay: calc(0.1s  * var(--i));
+    font-weight: bold;
+}
+
+.final-btn{
+    margin-top:4em;
+}
+
+.custom-num{
+	margin:auto; width:60px; height:60px;border-radius: 50%; border:2px solid white; color:white; font-size:2.25em; font-weight:bold;
+}

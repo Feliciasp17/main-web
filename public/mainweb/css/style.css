@@ -1,0 +1,19 @@
+body {
+	background-image: linear-gradient(to bottom right, #001e12 , #120e25); height:100vh; margin:0; display:flex; flex-direction:column; background-repeat:no-repeat; background-attachment: fixed;
+}
+
+@media(max-width:991px) {
+	#header-text {
+		text-align: center;
+	}
+
+	#header-image {
+		display: none;
+	}
+}
+
+@media(max-width:767px) {
+	#login-header-image {
+		display: none;
+	}
+}

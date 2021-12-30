@@ -1,0 +1,40 @@
+.article-author{
+    font-weight: 500;
+    color: #1ec27a !important;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+}
+
+.article-date{
+    font-weight: 500;
+    color: #1ec27a !important;
+    font-size: 1rem;
+    
+}
+
+.article-post-meta ion-icon{
+    margin-right: 0.5rem;
+}
+
+.paragraf{
+    text-align: justify;
+}
+
+.line-post{ 
+    border: 0; border-top: 0.5rem solid #1ec27a;
+}
+
+@media(max-width:600px){
+    .article-post-title{
+        font-size:2rem;
+    }
+    .article-author{
+        font-size: 0.7rem !important;
+        font-weight: 700;
+    }
+    
+    .article-date{
+        font-size: 0.7rem !important; 
+        font-weight: 700;
+    }
+}
