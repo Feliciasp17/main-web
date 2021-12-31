@@ -7,9 +7,9 @@ https://www.tooplate.com/view/2115-marvel
 */
 
 
-@import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Overpass:400,700');
 body {
-  font-family: "Maven Pro", sans-serif;
+  font-family: 'Overpass', sans-serif;
   padding-top: 70px;
 }
 
@@ -18,7 +18,7 @@ body {
 }
 
 .small-text {
-  color: #3ffbbe;
+  color: #01934c;
   font-size: 14px;
   font-weight: bold;
   padding: 8px 16px;
@@ -40,10 +40,10 @@ a {
   font-weight: normal;
   text-decoration: none !important;
   transition: all 0.4s ease;
-  color: #ffffff !important;
+  color: #b8ffc9 !important;
 }
 a:hover {
-  color: #3ffbbe !important;
+  color: #01934c !important;
 }
 
 .navbar-brand .uil {
@@ -53,34 +53,32 @@ a:hover {
 p {
   font-size: 18px;
   font-weight: 300px;
-  color: #ffffff;
+  color:#01934c ;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   letter-spacing: -1px;
-  color: #1ec27a;
+  color: #01934c;
 }
 
 h1 {
-  color: #1ec27a;
   font-size: 2.8em;
   margin: 24px 0;
 }
 
 h2 {
-  color: #1ec27a;
   font-size: 2.4em;
   font-weight: bold;
-}
-
-h3 {
-  color: #3ffbbe;
 }
 
 h3,
 b, strong {
   font-weight: bold;
+}
+
+.readmore1, .readmore2 {
+  color:#01934c !important;
 }
 
 .about-text{
@@ -98,17 +96,14 @@ b, strong {
   overflow: hidden;
   transition: all 0.4s ease;
 }
-.custom-btn:hover {
-  background:  #102f27;
-  color:#1ec27a !important;
-}
+
 .custom-btn.custom-btn-bg {
-  background: #3ffbbfe1;
-  color: #1f1f1f !important;
+  background:  #01934c;
+  color:#8fe3ae !important;
 }
 .custom-btn.custom-btn-bg:hover {
-  background:  #102f27;
-  color:#3ffbbfe1 !important;
+  background: #5cc990;
+  color: #01934c !important;
 }
 
 .animated {
@@ -124,7 +119,7 @@ b, strong {
 }
 
 .animated-item {
-  color: #1ec27a;
+  color: #5cc990;
 }
 
 .animated-item {
@@ -222,7 +217,7 @@ b, strong {
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #ffc200;
+  color: #01934c;
   font-weight: bold;
 }
 .navbar-light .navbar-nav .nav-link:focus span,
@@ -259,7 +254,7 @@ b, strong {
   bottom: 1px;
 }
 .navbar-toggler .navbar-toggler-icon {
-  background: #1ec27a;
+  background: #b8ffc9;
   display: block;
   width: 100%;
   height: 2px;
@@ -298,7 +293,6 @@ b, strong {
 }
 
 .timeline-text{
-  color: #1ec27a;
   font-size: 40px;
   margin-top: -50px;
 }
@@ -311,7 +305,7 @@ b, strong {
 }
 .timeline-wrapper:before {
   content: "";
-  background: #102f27;
+  background: #01934c;
   width: 3px;
   height: 100%;
   position: absolute;
@@ -319,7 +313,7 @@ b, strong {
 }
 
 .timeline-yr {
-  background: #102f27;
+  background: #01934c;
   border-radius: 100%;
   position: absolute;
   width: 75px;
@@ -349,7 +343,7 @@ b, strong {
 }
 
 .timeline-info small {
-  color: #1ec27a;
+  color: #5cc990;
   font-size: 20px;
   font-weight: bold;
   display: inline-block;
@@ -369,7 +363,7 @@ b, strong {
     line-height: 65px;
   }
   .timeline-yr {
-    background: #102f27;
+    background: #01934c;
     border-radius: 100%;
     position: absolute;
     width: 65px;
@@ -379,7 +373,7 @@ b, strong {
   }
   .timeline-wrapper:before {
     content: "";
-    background: #102f27;
+    background: #01934c;
     width: 3px;
     height: 100%;
     position: absolute;
@@ -429,7 +423,7 @@ b, strong {
   font-size: inherit;
 }
 .owl-theme .owl-nav [class*=owl-]:hover {
-  color: #1ec27a;
+  color: #5cc990;
 }
 .owl-theme .owl-dots .owl-dot {
   outline: none;
@@ -461,20 +455,20 @@ b, strong {
   height: 48px;
 }
 .contact-form .form-control:hover, .contact-form .form-control:focus {
-  border-color: #1ec27a;
+  border-color: #5cc990;
 }
 .contact-form .submit-btn {
-  background: #3ffbbe;
+  background: #01934c;
   border-radius: 50px;
-  color: #102f27;
+  color: #b8ffc9;
   font-weight: bold;
   border: 0;
   cursor: pointer;
   transition: all 0.4s ease;
 }
 .contact-form .submit-btn:hover {
-  background: #102f27;
-  color: #3ffbbe;
+  background: #5cc990;
+  color: #01934c
 }
 
 .contact-info {
@@ -484,7 +478,7 @@ b, strong {
   bottom: 8px;
 }
 .contact-info p, .contact-info a {
-  color: #1ec27a;
+  color: #5cc990;
 }
 
 .footer-title{
@@ -492,11 +486,11 @@ b, strong {
 }
 
 .footer-text{
-  color: #1ec27a !important;
+  color: #5cc990 !important;
 }
 
 .copyright{
-  color: #1ec27a !important;
+  color: #5cc990 !important;
 }
 
 @media (min-width: 1270px) {
@@ -583,7 +577,6 @@ b, strong {
 
   .about-text {
     text-align: center;
-
   }
 
   .full-screen {

@@ -12,7 +12,7 @@
 
     <meta name="author" content="">
 
-    <link rel="shortcut icon" href="{{asset("mainweb/images/icon/title_icon.ico")}}">
+    <link rel="shortcut icon" href="{{asset("mainweb/images/icon/title_leaf.ico")}}">
 
     <title>@yield('title')</title>
 
@@ -70,7 +70,7 @@ https://www.tooplate.com/view/2115-marvel
 
     <!-- MENU -->
 
-    <nav id="navbar-main" class="navbar navbar-expand-sm navbar-light" style="background-image: linear-gradient(180deg, #120e25 , #001e12); border:none">
+    <nav id="navbar-main" class="navbar navbar-expand-sm navbar-light" style="background-color:#5cc990; border:none">
 
         <div class="container">
 
@@ -113,6 +113,12 @@ https://www.tooplate.com/view/2115-marvel
                     <li class="nav-item">
 
                         <a href="{{url('aboutus')}}" class="nav-link"><span data-hover="About Us">About Us</span></a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a href="{{url('registration')}}" class="nav-link"><span data-hover="Registration">Registration</span></a>
 
                     </li>
 

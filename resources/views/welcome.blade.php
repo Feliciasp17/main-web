@@ -26,9 +26,9 @@
 
 					<img src="{{asset("mainweb/images/logo/landscape_horizontal.png")}}" width="75%">
 
-					<h1 class="animated animated-text mt-4">
+					<h1 class="animated animated-text">
 
-							<div class="animated-info">
+							<div class="animated-info mt-4 mb-2">
 
 								<span class="animated-item">WELCOME TO CEG 2021</span>
 
@@ -40,9 +40,9 @@
 
 					<p>&nbsp;</p>
 
-					<div class="custom-btn-group mt-4">
+					<div class="custom-btn-group">
 
-					  <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">CONTACT US</a>
+					  <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link mt-5">CONTACT US</a>
 
 					</div>
 
@@ -87,10 +87,6 @@
               <div class="white-text">
 
                 <h1 class="h1-responsive font-weight-bold wow fadeInLeft" data-wow-delay="0.3s">Get To Know CEG 2021 !</h1>
-
-				
-
-                <hr class="hr-light wow fadeInLeft" data-wow-delay="0.3s">
 
                 <p class="wow fadeInLeft" data-wow-delay="0.3s">Chemical Engineering Games 2021 is BACK! Tahun ini CEG mengambil tema “AMBROSIA" yaitu Aquatic Management for Renewal in Food Industry. CEG 2021 akan dikemas dalam games yang seru dan menarik lho! Let’s join and get ready to be the CHAMPION !!</p>
 

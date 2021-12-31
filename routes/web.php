@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,13 +22,13 @@ Route::get('/', 'MainController@home_page');
 
 Route::get('/aboutus', 'MainController@about_us_page');
 
-// Route::get('/registration', 'MainController@regis_page')->name('registration');
-// Route::get('/registration/{status}', 'RegistrationController@show_form')->name('registration.form');
-// Route::post('/registration/save', 'RegistrationController@save_form')->name('registration.save');
-// Route::post('/registration/get_kota', 'RegistrationController@get_kota')->name('registration.get_kota');
-// Route::post('/registration/cek_nama_tim', 'RegistrationController@cek_nama_tim')->name('registration.cek_nama_tim');
-// Route::post('/registration/bukti', 'RegistrationController@upload_bukti')->name('registration.bukti');
-// Route::post('/registration/file', 'RegistrationController@upload_file')->name('registration.file');
+Route::get('/registration', 'MainController@regis_page')->name('registration');
+Route::get('/registration/{status}', 'RegistrationController@show_form')->name('registration.form');
+Route::post('/registration/save', 'RegistrationController@save_form')->name('registration.save');
+Route::post('/registration/get_kota', 'RegistrationController@get_kota')->name('registration.get_kota');
+Route::post('/registration/cek_nama_tim', 'RegistrationController@cek_nama_tim')->name('registration.cek_nama_tim');
+Route::post('/registration/bukti', 'RegistrationController@upload_bukti')->name('registration.bukti');
+Route::post('/registration/file', 'RegistrationController@upload_file')->name('registration.file');
 
 Route::get('/comingsoon', 'MainController@coming_soon_page');
 

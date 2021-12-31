@@ -1,5 +1,11 @@
 body {
-	background-image: linear-gradient(to bottom right, #001e12 , #120e25); height:100vh; margin:0; display:flex; flex-direction:column; background-repeat:no-repeat; background-attachment: fixed;
+	background-color: #b8ffc9;
+	height:100vh; 
+	margin:0; 
+	display:flex; 
+	flex-direction:column; 
+	background-repeat:no-repeat; 
+	background-attachment: fixed;
 }
 
 @media(max-width:991px) {
