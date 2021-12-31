@@ -7,7 +7,7 @@
 @section('content')
 <div class="container" style="margin:0; position: absolute; top: 50%; left: 50%; -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%);">
     <div class="row justify-content-center">
-		<div class="col-md-8 col-11 card" style="background-color: transparent">
+		<div class="col-md-8 col-11 card" style="background-color: transparent; box-shadow: 0px 0px 10px 10px #8fe3ae; ">
 			<div class="card-body">
 				<div class="row">
 					<div class="col-md-6 d-flex align-items-center justify-content-center">
